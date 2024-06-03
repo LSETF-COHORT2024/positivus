@@ -5,7 +5,7 @@ import second from "../assets/images/Picture-2.png";
 import third from "../assets/images/Picture-3.png";
 import fourth from "../assets/images/Picture-4.png";
 import fifth from "../assets/images/Picture-5.png";
-// import sixth from "../assets/images/Picture-6.png";
+import sixth from "../assets/images/Picture-6.png";
 
 const CardComponent = () => {
   const variants = [
@@ -16,7 +16,7 @@ const CardComponent = () => {
     "Primary",
     "Primary",
   ];
-  const images = [first, second, third, fourth, fifth]; // Array of images
+  const images = [first, second, third, fourth, fifth, sixth]; // Array of images
 
   return (
     <Container>
