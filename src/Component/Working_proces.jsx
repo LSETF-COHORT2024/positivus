@@ -44,13 +44,7 @@ const Working_proces = () => {
 
   return (
     <div>
-      <div className="d-flex flex-sm-row flex-column gap-4 text-start mb-5">
-        <h3 className="bg-success p-2 rounded-4">Team</h3>
-        <p className="skill-team fw-medium">
-          Meet the skilled and experienced team behind our successful digital
-          marketing strategies
-        </p>
-      </div>
+      <div className="d-flex flex-sm-row flex-column gap-4 text-start mb-5"></div>
       <Row>
         {variants.map((variant, index) => (
           <Col lg={4} md={6} key={index} className="mb-4">
