@@ -1,14 +1,13 @@
 
-import './App.css'
+import React from 'react'
+import Hero from './components/Hero'
 
 function App() {
  
   return (
     <>
      <div>
-      <h1 className=''>
-        my name is uche
-      </h1>
+     <Hero/>
      </div>
     </>
   )
