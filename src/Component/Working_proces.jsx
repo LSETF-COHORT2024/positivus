@@ -7,7 +7,7 @@ import fourth from "../assets/images/Picture-4.png";
 import fifth from "../assets/images/Picture-5.png";
 import sixth from "../assets/images/Picture-6.png";
 
-const CardComponent = () => {
+const Working_proces = () => {
   const variants = [
     "Primary",
     "Primary",
@@ -43,15 +43,21 @@ const CardComponent = () => {
   ]; // Arrays
 
   return (
-    <Container>
+    <div>
+      <div className="d-flex flex-sm-row flex-column gap-4 text-start mb-5">
+        <h3 className="bg-success p-2 rounded-4">Team</h3>
+        <p className="skill-team fw-medium">
+          Meet the skilled and experienced team behind our successful digital
+          marketing strategies
+        </p>
+      </div>
       <Row>
         {variants.map((variant, index) => (
-          <Col md={4} key={index} className="mb-4">
+          <Col lg={4} md={6} key={index} className="mb-4">
             <Card
               bg="white"
               text="dark"
               style={{
-                width: "23rem",
                 boxShadow: "0px 8px 3px #191A23",
                 borderRadius: "40px",
                 border: "1px solid black",
@@ -68,9 +74,11 @@ const CardComponent = () => {
                     <p style={{ margin: 0, fontWeight: "bold" }}>
                       {name[index]}
                     </p>
-                    <p style={{ margin: 0 }}>{title[index]}</p>
+                    <p style={{ margin: 0 }} className="fw-medium">
+                      {title[index]}
+                    </p>
                   </div>
-                  <i class="fa-brands fa-linkedin-in bg-dark p-2 text-success rounded-circle"></i>
+                  <i className="fa-brands fa-linkedin-in bg-dark p-2 text-success rounded-circle"></i>
                 </div>
               </div>
               <hr />
@@ -83,8 +91,8 @@ const CardComponent = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </div>
   );
 };
 
-export default CardComponent;
+export default Working_proces;

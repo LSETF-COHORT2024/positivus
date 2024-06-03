@@ -1,13 +1,30 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+}
+
+.skill-team {
+  width: 40%;
+}
+
+.step-goal {
+  width: 25%;
+}
+
+@media (max-width: 575px) {
+  .skill-team {
+    width: 100%;
+    text-align: center;
+  }
+
+  .step-goal {
+    width: 100%;
+    text-align: center;
+  }
 }
