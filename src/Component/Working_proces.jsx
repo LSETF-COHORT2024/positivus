@@ -89,7 +89,12 @@ const Working_proces = () => {
         ))}
 
         <div className="">
-          <button className="float-md-end">See all team</button>
+          <button
+            className="float-md-end"
+            style={{ background: "#191a23", color: "#ffff" }}
+          >
+            See all team
+          </button>
         </div>
       </Row>
     </div>

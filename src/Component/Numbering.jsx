@@ -5,11 +5,15 @@ import Col from "react-bootstrap/Col";
 
 function WithHeaderAndQuoteExample(props) {
   const { number, content } = props;
+
   return (
-    <Container fluid className="px-0 w-100 h-100 mb-5 ">
-      <Row className="justify-content-center h-100  ">
-        <Col lg={8} xl={12} xxl={12} className="h-100 ">
-          <Card className="bg-custom rounded-5 h-100 bg-card" style={{backgroundColor: "#f3f3f3"}}>
+    <Container fluid className="px-0 w-100 h-100 mb-5">
+      <Row className="justify-content-center h-100">
+        <Col lg={8} xl={12} xxl={12} className="h-100">
+          <Card
+            className="bg-custom rounded-5 h-100 bg-card"
+            style={{ backgroundColor: "#f3f3f3" }}
+          >
             <Card.Body className="d-flex flex-column justify-content-between">
               <div className="text-start d-flex justify-content-between align-items-start">
                 <div className="d-flex">
@@ -17,7 +21,8 @@ function WithHeaderAndQuoteExample(props) {
                   <p className="fw-bold mt-3 mx-3 my-">{content}</p>
                 </div>
                 <p className="fw-bold btn-bg rounded-circle text-center p-1">
-                  +
+                  {" "}
+                  +{" "}
                 </p>
               </div>
             </Card.Body>
@@ -29,9 +34,3 @@ function WithHeaderAndQuoteExample(props) {
 }
 
 export default WithHeaderAndQuoteExample;
-
-
-// During the initial consultation, we will discuss your business
-//                 goals and objectives, target audience, and current marketing
-//                 efforts. This will allow us to understand your needs and tailor
-//                 our services to best fit your requirements.
