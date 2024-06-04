@@ -9,10 +9,18 @@
 }
 .border-line {
   border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 
 @media (max-width: 400px) {
   .border-line {
     border: none;
+    display: none;
+  }
+  .img {
+    display: none;
+  }
+  .local {
+    display: none;
   }
 }

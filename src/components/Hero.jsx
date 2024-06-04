@@ -17,7 +17,7 @@ const Hero = () => {
                 
                 
             </div>
-            <div className="col-lg-4 mx-md-auto mx-sm-auto m-3 col-md-6 col-sm-6">
+            <div className=" img col-lg-4 mx-md-auto mx-sm-auto  m-3 col-md-6 col-sm-6">
                 <img src="/images/frame.png" width={350}  alt="" />
             </div>
 
@@ -33,8 +33,8 @@ const Hero = () => {
       </div>
 
       <div className="container justify-content-center align-content-center">
-        <div className="row bg-dark p-4 rounded-5 my-5">
-            <div className="border-line col-lg-4 col-md-12 pt-5 ">
+        <div className="row bg-dark p-4 d-flex justify-content-centern rounded-5 my-5">
+            <div className=" col pt-5 ">
             <p className='pb-5 text-white'> For a local restaurant we <br/>
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
@@ -42,7 +42,7 @@ const Hero = () => {
 
             </div>
 
-            <div className="border-line col-lg-4 col-md-12 pt-5">
+            <div className="border-line col pt-5">
             <p className='pb-5 text-white mx-5 me-5 '> For a local restaurant we <br/>
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
             
 
-            <div className=" col-lg-3 col-md-12  pt-5">
+            <div className="local col pt-5">
             <p className='pb-5 text-white ms-5'> For a local restaurant we <br/>
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
