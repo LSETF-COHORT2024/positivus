@@ -3,10 +3,16 @@
   font-size: 20px;
   background-color: yellowgreen;
   margin-right: 20px;
-  margin-left: 35px;
+  margin-left: 12%;
   margin-top: 10px;
   border-radius: 3px;
 }
 .border-line {
   border-right: 2px solid white;
+}
+
+@media (max-width: 400px) {
+  .border-line {
+    border: none;
+  }
 }
