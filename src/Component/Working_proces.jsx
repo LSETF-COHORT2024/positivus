@@ -72,7 +72,10 @@ const Working_proces = () => {
                       {title[index]}
                     </p>
                   </div>
-                  <i className="fa-brands fa-linkedin-in bg-dark p-2 text-success rounded-circle"></i>
+                  <i
+                    className="fa-brands fa-linkedin-in bg-dark p-2 rounded-circle"
+                    style={{ color: "#b9ff66" }}
+                  ></i>
                 </div>
               </div>
               <hr />
@@ -84,6 +87,10 @@ const Working_proces = () => {
             </Card>
           </Col>
         ))}
+
+        <div className="">
+          <button className="float-md-end">See all team</button>
+        </div>
       </Row>
     </div>
   );

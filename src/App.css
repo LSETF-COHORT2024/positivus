@@ -17,6 +17,10 @@ body {
   width: 25%;
 }
 
+.bg-card {
+  box-shadow: 0px 10px 3px #191a23;
+}
+
 @media (max-width: 575px) {
   .skill-team {
     width: 100%;
@@ -35,4 +39,12 @@ body {
 
 .font-size-smaller {
   font-size: 0.6em;
+}
+
+.btn-bg {
+  background-color: #f3f3f3;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 20px;
 }
