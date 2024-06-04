@@ -14,8 +14,9 @@ function App() {
       <Work_Team />
       <br />
       <Numbering />
-      <Working_proces />
+      <br />
       <Team />
+      <Working_proces />
     </>
   );
 }
