@@ -1,53 +1,38 @@
-import React from "react";
+import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-function Numbering() {
+function WithHeaderAndQuoteExample() {
   return (
-    <div>
-      <div>
-        <div className="d-flex flex-sm-row flex-column gap-4 text-start mb-5"></div>
-        <Row>
-          {variants.map((variant, index) => (
-            <Col lg={4} md={6} key={index} className="mb-4">
-              <Card
-                bg="white"
-                text="dark"
-                style={{
-                  boxShadow: "0px 8px 3px #191A23",
-                  borderRadius: "40px",
-                  border: "1px solid black",
-                }}
-              >
-                <div>
-                  <div className="d-flex align-items-center justify-content-between">
-                    <img
-                      src={images[index]}
-                      alt={`Card image ${index + 1}`}
-                      width="80px"
-                    />
-                    <div className="align-self-end text-start">
-                      <p style={{ margin: 0, fontWeight: "bold" }}>
-                        {name[index]}
-                      </p>
-                      <p style={{ margin: 0 }} className="fw-medium">
-                        {title[index]}
-                      </p>
-                    </div>
-                    <i className="fa-brands fa-linkedin-in bg-dark p-2 text-success rounded-circle"></i>
-                  </div>
-                </div>
-                <hr />
-                <Card.Body>
-                  <Card.Text className="text-start">
-                    {testimonials[index]}
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      </div>
-    </div>
+    <Container fluid className="px-0 w-100 h-100">
+      <Row className="justify-content-center h-100">
+        <Col lg={8} xl={12} xxl={12} className="h-100">
+          <Card className="bg-custom rounded h-100">
+            <Card.Body className="d-flex flex-column justify-content-between">
+              <h1 className="text-start d-flex block-column justify-content-space-between align-items-start">
+                01
+                <span className="font-size-smaller fw-normal mt-3 mx-3 my-">
+                  Consultation
+                </span>
+                <span className="font-size-smaller fw-normal mt-3 mx-5 align-item-end">
+                  -
+                </span>
+              </h1>
+
+              <hr />
+              <p className="text-start flex-grow-1">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
-export default Numbering;
+export default WithHeaderAndQuoteExample;

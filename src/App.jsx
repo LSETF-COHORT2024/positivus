@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Work_Team />
+      <br />
       <Numbering />
       <Working_proces />
       <Team />
