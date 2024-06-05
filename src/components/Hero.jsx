@@ -2,6 +2,8 @@ import React from 'react'
 import Button from 'react-bootstrap/Button'
 import './Hero.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+
 
 const Hero = () => {
   return (
@@ -33,7 +35,7 @@ const Hero = () => {
       </div>
 
       <div className="container justify-content-center align-content-center">
-        <div className="row bg-dark p-4 d-flex justify-content-centern rounded-5 my-5">
+        <div className="row bg-dark  p-4 d-flex justify-content-centern rounded-5 my-5">
             <div className=" col pt-5 ">
             <p className='pb-5 text-white'> For a local restaurant we <br/>
             implemented a targeted PPC <br/>
@@ -41,6 +43,7 @@ const Hero = () => {
            25% increase in sales </p>
            <p className='Learn'>
             <a href="#">Learn more</a>
+            <span className='icon ms-4 '><img src="/images/Arrow.png" alt="" /> </span>
           </p>
 
             </div>
@@ -52,6 +55,7 @@ const Hero = () => {
            25% increase in sales </p>
            <p className='Learn ms-4'>
             <a href="#">Learn more</a>
+            <span className='icon ms-4'><img src="/images/Arrow.png" alt="" /> </span>
           </p>
 
             </div>
@@ -63,10 +67,11 @@ const Hero = () => {
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
            25% increase in sales </p>
           
-          <p className='Learn ms-4'>
+          <p className='Learn ms-4 '>
             <a href="#">Learn more</a>
+            <span className='icon ms-4'><img src="/images/Arrow.png" alt="" /></span>
           </p>
-          <span><FontAwesomeIcon icon="fa-solid fa-arrow-up" /> </span>
+          
             </div>
 
         </div>
