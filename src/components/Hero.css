@@ -11,6 +11,13 @@
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
+.Learn a {
+  text-decoration: none;
+  color: yellowgreen;
+}
+fa-solid fa-arrow-up {
+  color: yellowgreen;
+}
 
 @media (max-width: 400px) {
   .border-line {

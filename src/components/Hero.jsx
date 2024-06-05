@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
 import './Hero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Hero = () => {
   return (
@@ -65,6 +66,7 @@ const Hero = () => {
           <p className='Learn ms-4'>
             <a href="#">Learn more</a>
           </p>
+          <span><FontAwesomeIcon icon="fa-solid fa-arrow-up" /> </span>
             </div>
 
         </div>
