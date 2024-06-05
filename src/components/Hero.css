@@ -23,4 +23,22 @@
   .local {
     display: none;
   }
+  .Case {
+    display: block;
+    text-align: center;
+  }
+  .Explore {
+    margin-left: 10px;
+  }
+
+  .Learn {
+    margin-top: -20px;
+  }
+  .Learn a {
+    text-decoration: none;
+    color: yellowgreen;
+  }
+  .hidden-br {
+    display: none;
+  }
 }

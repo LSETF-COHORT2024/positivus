@@ -23,11 +23,10 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className="section ">
-        <div className='d-flex justify-content-lg-start mx-md-auto mx-sm-auto'>
-            <span className='Case'>Case Studies </span>
-            <span className='Explore'>Explore Real-Life Examples of Our Proven Digital Markerting <br/>
-            Success through our Case Studies
+      <div className="section">
+        <div className='d-lg-flex  justify-content-lg-start'>
+            <span className='Case '>Case Studies</span>
+            <span className='Explore '>Explore Real-Life Examples of Our Proven Digital Markerting <br className='hidden-br' /> Success through our Case Studies
             </span>
        </div>
       </div>
@@ -39,6 +38,9 @@ const Hero = () => {
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
            25% increase in sales </p>
+           <p className='Learn'>
+            <a href="#">Learn more</a>
+          </p>
 
             </div>
 
@@ -47,6 +49,9 @@ const Hero = () => {
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
            25% increase in sales </p>
+           <p className='Learn ms-4'>
+            <a href="#">Learn more</a>
+          </p>
 
             </div>
             
@@ -56,7 +61,10 @@ const Hero = () => {
             implemented a targeted PPC <br/>
            campaign that resulted in 50% <br/> increase in website traffic and a <br/>
            25% increase in sales </p>
-
+          
+          <p className='Learn ms-4'>
+            <a href="#">Learn more</a>
+          </p>
             </div>
 
         </div>
