@@ -21,6 +21,8 @@ function App() {
       <img src={image2} alt="Image 2" /> 
       </div>
       <Services/>
+      <Services/>
+      
     </div>
 );
 };
