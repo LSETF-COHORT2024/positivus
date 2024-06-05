@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Services from "./components/Services.jsx";
 import Magnifier from "./assets/images/magnifier.png"
 import Mails from "./assets/images/mails.png"
@@ -77,6 +78,25 @@ function App() {
       </div>
     </div>
   );
+=======
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css';
+import HeroSection from './Components/hero'
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+function App() {
+
+
+  return (
+    <>
+      <HeroSection />
+    </>
+  )
+>>>>>>> Stashed changes
 }
 
 export default App
