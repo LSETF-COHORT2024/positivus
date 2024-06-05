@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       <div className="container justify-content-center align-content-center">
-        <div className="row bg-dark  p-4 d-flex justify-content-centern rounded-5 my-5">
+        <div className="row bg-dark  p-4 d-flex justify-content-centern rounded-5 mt-5">
             <div className=" col pt-5 ">
             <p className='pb-5 text-white'> For a local restaurant we <br/>
             implemented a targeted PPC <br/>
@@ -43,7 +43,7 @@ const Hero = () => {
            25% increase in sales </p>
            <p className='Learn'>
             <a href="#">Learn more</a>
-            <span className='icon ms-4 '><img src="/images/Arrow.png" alt="" /> </span>
+            <span className='icon ms-2 '><img src="/images/Arrow.png" width={15} alt="" /> </span>
           </p>
 
             </div>
@@ -55,7 +55,7 @@ const Hero = () => {
            25% increase in sales </p>
            <p className='Learn ms-4'>
             <a href="#">Learn more</a>
-            <span className='icon ms-4'><img src="/images/Arrow.png" alt="" /> </span>
+            <span className='icon ms-2'><img src="/images/Arrow.png" width={15} alt="" /> </span>
           </p>
 
             </div>
@@ -69,7 +69,7 @@ const Hero = () => {
           
           <p className='Learn ms-4 '>
             <a href="#">Learn more</a>
-            <span className='icon ms-4'><img src="/images/Arrow.png" alt="" /></span>
+            <span className='icon ms-2'><img src="/images/Arrow.png" width={15} alt="" /></span>
           </p>
           
             </div>
