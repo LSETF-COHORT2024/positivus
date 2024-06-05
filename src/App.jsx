@@ -5,8 +5,7 @@ import image2 from './assets/images/image2.png';
 import image3 from './assets/images/image3.png';
 import image4 from './assets/images/image4.png';
 import image5 from './assets/images/image5.png';
-import Services from './components/service';
-
+import Adams from './components/Adams';
 
 
 function App() {
@@ -20,8 +19,8 @@ function App() {
       <img src={image3} alt="Image 3" />
       <img src={image2} alt="Image 2" /> 
       </div>
-      <Services/>
-      <Services/>
+      <Adams/>
+      
       
     </div>
 );
